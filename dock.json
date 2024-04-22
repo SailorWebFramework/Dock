@@ -1,4 +1,19 @@
 {
-  "Fleet" : {"tailwind": "https://github.com/SailorWebFramework/Tailwind_Crate"},
-  "Crates" : {"test": "blah blah blah"}
+  "Fleet" : {
+    [
+      {
+        "name": "tailwind",
+        "location": "https://github.com/SailorWebFramework/Tailwind_Crate",
+        "version": "1.0.0"
+      }
+    ]
+  },
+  "Crates" : 
+    [
+        {
+          "name": "test",
+          "location": "blah blah",
+          "version": "1.0.0"
+        }
+    ]
 }
